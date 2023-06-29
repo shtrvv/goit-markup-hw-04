@@ -281,12 +281,12 @@ img {
 }
 .position {
     text-align: center;
+    margin-bottom: 8px;
 }
 .team-links-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 8px;
 }
 .icon-item {
     width: 40px;
@@ -426,8 +426,6 @@ img {
 .overlay-text {
     color: var(--cloud-color);
     letter-spacing: 0.32px;
-    display: flex;
-    width: 296px;
 }
 .card-prod {
     padding: 32px 16px;
@@ -442,6 +440,9 @@ img {
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
     margin-bottom: 8px;
+}
+.description {
+    color: var(--slate-color);
 }
 /**
   |============================
